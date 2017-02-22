@@ -1,0 +1,13 @@
+{
+	"manifest_version":2,
+	"name":"example2",
+	"version":"1.0",
+
+	"permissions":[
+		"webRequest","<all_urls>","webRequestBlocking","tabs"
+	],
+
+	"background":{
+		"scripts":["background.js"]
+	}
+}
